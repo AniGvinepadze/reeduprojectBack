@@ -1,5 +1,4 @@
-const { default: mongoose } = require("mongoose");
-const { comment } = require("postcss");
+const { default: mongoose } = require("mongoose");;
 
 const commentSchema = new mongoose.Schema({
   comment: { type: String, required: true },
